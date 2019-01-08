@@ -13,3 +13,6 @@ Answer: mymat=matrix(rep(1:5,4),ncol=4)
 > sum_row_mymat=apply(mymat,1,sum)
 > sum_row_mymat
 [1]  4  8 12 16 20
+sum2<-apply(mymat,2,sum)
+> sum2
+[1] 15 15 15 15
